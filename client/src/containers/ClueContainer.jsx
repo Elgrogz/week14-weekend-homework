@@ -10,7 +10,6 @@ class ClueContainer extends React.Component {
 render() {
     return (
       <div className="clue-container">
-      <p>Clues go here</p>
       </div>
     )
   }
