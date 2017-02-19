@@ -12,7 +12,7 @@ class FaceComponent extends React.Component {
 
   render() {
     return (
-        <td className="face" onClick={this.handleClickEvent.bind(this)}><img src={this.props.photo}/></td>
+        <td className="face-component" onClick={this.handleClickEvent.bind(this)}><img src={this.props.photo}/></td>
       )
   }
 }
