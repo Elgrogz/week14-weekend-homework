@@ -11,6 +11,18 @@ body {
 
 }
 
+#marge {
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEKdjTjwv3OlkMbcSwr-eMgueoJqhhqE5WlE3dIyJBUKHJBwIe");
+}
+
+#bart {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQdNGEt0YKWwLWjD5IHlsAtyrpAiYblrmbuJp3yZNYCPY-NR2jyA");
+}
+
+#apu {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQdNGEt0YKWwLWjD5IHlsAtyrpAiYblrmbuJp3yZNYCPY-NR2jyA");
+}
+
 .Table {
   align-items: center;
   border-collapse: collapse;
@@ -20,7 +32,7 @@ body {
   align-content: center;
 }
 
-.Tile{
+.face-component{
   text-align: center;
   border: 1px solid black;
   width: 33%;
