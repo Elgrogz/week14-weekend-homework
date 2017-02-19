@@ -1,5 +1,6 @@
 import React from 'react';
-// import Tile from './Tile.jsx';
+import FaceContainer from './FaceContainer.jsx';
+import ClueContainer from './ClueContainer.jsx';
 
 class MainContainer extends React.Component {
 
@@ -9,19 +10,10 @@ class MainContainer extends React.Component {
 
   render() {
       return (
-        <table className= "Table">
-        <tbody>
-          <tr>
-            hello
-          </tr>
-          <tr>
-            hello
-          </tr>
-          <tr>
-            hello
-          </tr>
-        </tbody>
-      </table>
+        <div className="main-container">
+         <FaceContainer />
+         <ClueContainer />
+        </div>
       )
     }
 
