@@ -8,8 +8,14 @@ class ClueContainer extends React.Component {
   }
 
 render() {
+
+  const clues = this.props.clues.map(function(clue, index) {
+    return <p id={index}>{clue}</p>
+  })
+
     return (
-      <div className="clue-container">
+      <div key="clue-container">
+      {clues}
       </div>
     )
   }
